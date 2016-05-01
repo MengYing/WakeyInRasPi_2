@@ -1,0 +1,43 @@
+#!/bin/sh
+RFID=$(head -n 1 ../../../Wakey/rtTagIDTxttempMONITOR.txt ) 
+#tag1=2424622786105
+#tag2=821722278675
+#tag3=242212298684
+#tag4=194462278689
+#tag5=501612278638
+##event tag
+#tag1=17813722686143
+#tag2=187423086232
+#tag3=1466822986101
+#tag4=210772308647
+#tag5=17813923086137
+#tag22=146102298643
+#tag23=348223086192
+#tag24=982542268640
+#tag25=8214823086118
+#tag26=16216022786183
+#tag27=2424022886104
+#tag28=1467722986108
+#tag29=242152288679
+#tag30=21017222786203
+#tag31=2263422786117
+#tag32=1941072298626
+tag33=1941222786123
+
+#tag34=82722886231
+#tag35=501412298612
+#tag36=2176228860
+#tag37=821942278637
+#tag38=178902288690
+
+echo $RFID
+
+#screen -S led -d -m -- sh -c 'sudo python /home/pi/Wakey/LEDMode.py 1'
+
+#STOP
+
+if  [ $RFID = $tag33 ]
+then
+screen -S led -d -m -- sh -c 'sudo python /home/pi/Wakey/LEDMode.py 1'
+sh killmusic.sh
+fi

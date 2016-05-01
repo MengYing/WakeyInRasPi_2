@@ -1,0 +1,7 @@
+@reboot sh /home/pi/test/version1/Wakey_shell/screen.sh
+@reboot sh /home/pi/test/version1/Wakey_shell/everyday.sh
+@reboot sh /home/pi/Wakey/python.sh
+0 4 * * * sh /home/pi/test/version1/Wakey_shell/everyday.sh
+0 6 * * * sh /home/pi/test/version1/Wakey_shell/everyday.sh
+0 4 * * * sh /home/pi/test/version1/Wakey_shell/music.sh
+ 

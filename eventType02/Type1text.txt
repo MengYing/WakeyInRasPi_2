@@ -1,0 +1,1 @@
+020160501194618194622 userID 0 eventType 2 eventID 020160501194618 actionType 1 date 20160502 我們來刷牙吧！ startTime 20160502 0917

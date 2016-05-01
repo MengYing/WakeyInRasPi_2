@@ -1,0 +1,1 @@
+020160501194548194607 userID 0 eventType 3 eventID 020160501194548 actionType 1 date 20160502 吃完早餐可以請你幫忙媽媽收拾盤子嗎？  startTime 20160502 0910

@@ -1,0 +1,1 @@
+020160501194429194521 userID 0 eventType 1 eventID 020160501194429 actionType 1 date 20160502 Kiwi起床跟太陽公公說哈囉！ startTime 20160502 0010

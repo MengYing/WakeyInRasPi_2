@@ -1,0 +1,1 @@
+020160501194640194643 userID 0 eventType 4 eventID 020160501194640 actionType 1 date 20160502 要檢查一下書包喔！ startTime 20160502 0924
